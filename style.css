@@ -1,0 +1,778 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#header{
+    height: 10vh;
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+
+}
+#logo img{
+    height: 50px;
+    object-fit: cover;
+}
+.texts{
+    display: flex;
+}
+.texts a:hover{
+    color: lightblue;
+}
+.texts a{
+    text-decoration: none ;
+    font-weight: bold;
+    color: rgb(4, 4, 96);
+    
+}
+#ContactDetails{
+    text-align: center;
+    font-weight: 400;
+}
+
+#ContactDetails p,a{
+    color: rgb(4, 4, 96);
+}
+.icons{
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.icons:hover{
+    background-color: rgb(227, 229, 246);
+}
+#login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 15px;
+    color: rgb(4, 4, 96);
+    font-weight: bold;
+
+}
+#login:hover{
+    background-color: rgb(227, 229, 246);
+}
+
+#try{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: green;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+
+}
+#try:hover{
+    background-color: rgb(3, 41, 3);
+}
+#fakeheader{
+    height: 10vh;
+    width: 100vw;
+    
+}
+
+#page1{
+    height: 90vh;
+    width: 100vw;
+    background-color: white;
+}
+#page1{
+    background-image: url(https://wp.sfdcdigital.com/en-ap/wp-content/uploads/sites/14/2024/02/php-marquee-starter-lg-bg.jpg?resize=2048,640);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+#p1header{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(4, 4, 96);
+    
+}
+#p1header img{
+    margin-right: 20px;
+    height: 40px;
+    max-width: 100%;
+    object-fit: cover;
+}
+#p1header h4{
+    color: white;
+    margin-right: 20px;
+    font-weight: 6px;
+    
+}
+#p1header div{
+    color: white;
+    text-decoration: underline;
+}
+#p1header div:hover{
+    text-decoration: none;
+}
+#left{
+    padding: 30px;
+    max-width: 40vw;
+    margin-left: 90px;
+    
+}
+#left h1{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-size: 70px;
+    font-weight: 50px;
+    color: rgb(4, 4, 96);
+}
+#left p{
+    margin-bottom: 50px;
+    color: rgb(22, 22, 23);
+    font-weight: 2px;
+    font-size: 30px;
+}
+#video{
+    display: flex;
+}
+#startWatch{
+    display: flex;
+    justify-content:flex-start;
+}
+#start{
+    margin-right: 30px;
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 40px;
+    width: 160px;
+    padding: 2px;
+    border-radius: 4px;
+    background-color: rgb(15, 100, 170);
+}
+#watch{
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(15, 100, 170);
+    height:40px;
+    width: 150px;
+    border-radius: 4px;
+    border: 2px rgb(15, 100, 170) solid;
+    /* background-color: rgb(15, 100, 170); */
+}
+#watch:hover{
+    background-color: rgb(187, 210, 229);
+}
+#right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+#rightbox iframe{
+    height: auto;
+    width: auto;
+    object-fit:cover;
+
+} 
+#rcard img{
+    object-fit:cover;
+    width: 100%;
+    height: 100%;
+    /* margin-left: 90px; */
+}
+#line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#line h2{
+    margin-top: 10px;
+    color: rgb(4, 4, 96);
+    font-size: 40px;
+}
+#page2{
+    height: 90vh;
+    width: 100vw;
+    background-image: url(https://wp.sfdcdigital.com/en-in/wp-content/uploads/sites/21/2023/03/pb-hp-products-bg.png?resize=2048,625);
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#box1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cards{
+    width: 250px;
+    height: 360px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 2px rgb(4, 4, 96) solid;
+}
+.cards img{
+    width: 100%;
+    object-position:top;
+    object-fit:contain;
+    
+}
+.cards h3{
+    margin-left: 25px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    columns: rgb(4, 4, 96);
+}
+.cards h5{
+    margin-left: 25px;
+    margin-right: 10px;
+    font-weight: 550;
+    columns: rgb(4, 4, 96);
+}
+.cards p{
+    margin-top: 70px;
+    margin-left: 25px;
+    font-size: medium;
+    color:rgb(4, 4, 96) ;
+    text-decoration: underline;
+}
+.cards p:hover{
+    text-decoration: none;
+    color: rgb(47, 97, 113);
+}
+#p2btn{
+    height: 40px;
+    width: 200px;
+    margin-top: 90px;
+    margin-left: 650px;
+    border: 2px rgb(103, 154, 171) solid;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#p2btn:hover{
+    border: 2px rgb(65, 112, 242) solid;
+    background-color: rgb(205, 225, 231);
+    color:rgb(65, 112, 242);
+   
+}
+
+#page3{
+    height: 70vh;
+    width: 100vw;
+}
+.p3bigtext{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#p3bigtext1{
+    font-size: xx-large;
+    text-align: center;
+}
+.p3smalltext{
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    margin-left: 27%;
+    margin-right: 27%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+#p3btns{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 50px;
+
+}
+#sft{
+    width: 150px;
+    height: 40px;
+    border: 3px rgb(18, 101, 177) solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px;
+    border-radius: 5px;
+    color: wheat;
+    font-size: 20px;
+    background-color: rgb(18, 101, 177);
+
+}
+#sft:hover{
+    background-color: rgb(9, 65, 113);
+    border: 3px rgb(9, 65, 113) solid;
+}
+#wd{
+    width: 150px;
+    height: 40px;
+    border: 3px rgb(18, 101, 177) solid;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    border-radius: 5px;
+    color: rgb(89, 145, 214);
+}
+#wd:hover{
+    background-color: rgb(61, 75, 107);
+    border: 3px rgb(9, 11, 30) solid;
+
+}
+
+#page4{
+    height: 80vh;
+}
+#p4box1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.bigboxes{
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: -10px 0 20px rgba(0, 0, 0, 0.2), 10px 0 20px rgba(0, 0, 0, 0.2);
+
+}
+#p4img img{
+    margin-top: 20px;
+    margin-left: 100px;
+    height: 120px;
+    width: 120px;
+    object-fit: contain;
+}
+#p4txts{
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.p4btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 70px;
+    font-size: medium;
+    font-weight: 400;
+    border-radius: 20px;
+    color: rgb(4, 4, 96);
+    background-color: rgb(134, 179, 242);
+    margin-bottom: 20px;
+}
+#p4link{
+    margin-bottom: 10px;
+}
+#p4link a{
+    font-weight: lighter;
+    font-size: 28px;
+    text-decoration: none;
+    color: rgb(4, 4, 96);
+
+}
+#p4link a:hover{
+    color: rgb(4, 4, 60);
+}
+#p4p{
+    margin-right: 15px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    padding-bottom: 30px;
+}
+#p4stl a{
+    color: rgb(4, 4, 96);
+    font-size: large;
+    
+}
+#p4stl a:hover{
+    text-decoration: none;
+}
+#box2{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p4lff{
+    height: 40px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px rgb(106, 153, 200) solid;
+    border-radius: 3px;
+    color: rgb(106, 153, 200);
+}
+.p4lff:hover{
+    color: rgb(4, 4, 96);
+    border: 2px rgb(4, 4, 96) solid;
+    background-color: lightblue;
+}
+#page5{
+    height: 800px;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    background-image: url(https://wp.sfdcdigital.com/en-in/wp-content/uploads/sites/21/2023/03/pb-hp-logos-bg-2.png?resize=2048,414);
+    background-size: contain;
+    background-position:bottom;
+    background-repeat: no-repeat;
+    border-radius: 70% / 23%;
+    
+    
+}
+#p5bx2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#page5 h1{
+    z-index: 4;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 40px;
+    margin-bottom: 70px;
+}
+#p5smallbx{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.smallbx{
+    height: 100px;
+    width: 200px;
+    margin-right: 30px;
+    border-radius: 7px;
+    background-color: white;
+    box-shadow: -10px 0 20px rgba(0 , 0, 0, 0.5), 10px 0 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.smallbx img{
+    width: 100%;
+}
+.extension{
+    height: 500px;
+    width: 80%;
+    margin-top: 50px;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 40px;
+    justify-content: center;
+    border-radius: 7px;
+    box-shadow: -10px 0 20px rgba(0 , 0, 0, 0.2), 10px 0 20px rgba(0, 0, 0, 0.2);
+}
+#p6extnleft{
+    margin-top: 7%;
+    margin-left: 12%;
+    font-size: 23px;
+
+}
+#p6extnright img{
+    height: 400px;
+    object-fit: cover;
+}
+#p6ebtns{
+    align-items: center;
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+#p6esft{
+    width: 150px;
+    height: 40px;
+    border: 3px rgb(18, 101, 177) solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: wheat;
+    font-size: 20px;
+    background-color: rgb(18, 101, 177);
+
+}
+#sft:hover{
+    background-color: rgb(9, 65, 113);
+    border: 3px rgb(9, 65, 113) solid;
+}
+#sp{
+    width: 150px;
+    height: 40px;
+    border: 3px rgb(18, 101, 177) solid;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    border-radius: 5px;
+    color: rgb(89, 145, 214);
+}
+#sp:hover{
+    background-color: rgb(61, 75, 107);
+    border: 3px rgb(9, 11, 30) solid;
+
+}
+/*  */
+#page6{
+    padding-top: 30px;
+    height: 590px;
+    color: rgb(4, 4, 96);
+}
+#p6s{
+    margin-left: 25%;
+    margin-right: 23%;
+    font-size: 45px;
+    font-weight: 550;
+}
+#p6l{
+    margin-left: 25%;
+    margin-right: 23%;
+    font-weight: 550;
+    font-size: 45px;
+}
+
+#p6poster{
+    display: flex;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 60px;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+.p6icons{
+    height: 300px;
+    width: 240px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.p6icons img{
+    height: 80%;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+.p6lnk a{
+    margin-left: 15px;
+    font-size: 18px;
+}
+.p6lnk a:hover{
+    text-decoration: none;
+    color: rgb(125, 183, 251);
+}
+#page7{
+    height: 650px;
+    width: 100%;
+    background-image: url(https://wp.sfdcdigital.com/en-in/wp-content/uploads/sites/21/2023/03/pb-hp-products-bg-2.png?resize=2048,410);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    border-radius: 70% / 23%;
+
+}
+#p6poster{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.p6pstr{
+    width: 300px;
+    height: 350px;
+    /* background-color: yellow; */
+}
+.p6pstr img{
+    width: 120%;
+    object-fit: cover;
+}
+.p6pstr p{
+    font-size: 17px;
+    color: rgb(24, 24, 28);
+    font-weight: 100;
+}
+
+.lextension{
+    background-image: url(https://wp.sfdcdigital.com/en-in/wp-content/uploads/sites/21/2023/04/pb-hp-footer-mid3-in.jpg?resize=2048,1270);
+    background-size:cover;
+    background-position: 0 -200px;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+    border-radius: 7px;
+    box-shadow: -10px 0 20px rgba(0 , 0, 0, 0.2), 10px 0 20px rgba(0, 0, 0, 0.2);
+}
+#lentnbigtext h1{
+    padding-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    font-size: 45px;
+}
+#lentnsmltext p{
+    padding-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    font-size: 20px;
+}
+.lextnbtns{
+    display: flex;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 100px;
+    
+}
+#cntctUs{
+    color: white;
+    background-color: rgb(34, 113, 215);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 40px;
+    margin-right: 20px;
+    border: 2px rgb(34, 113, 215) solid;
+}
+#cntctUs:hover{
+    background-color: rgb(26, 26, 108);
+    border: 2px rgb(26, 26, 108) solid;
+}
+#edandp{
+    color: rgb(10, 16, 58);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 40px;
+    margin-right: 20px;
+}
+#edandp a:hover{
+    text-decoration: none;
+}
+
+#page8{
+    height: 450px;
+    display: flex;
+    padding-top: 50px;
+}
+#p8left{
+    width: 200px;
+    height: 300px;
+    margin-right: 150px;
+    margin-left: 100px;
+}
+#p8left img{
+    margin-bottom: 55px;
+    width: 100px;
+}
+#socoalMedia{
+    font-size: 30px;
+    margin-bottom: 40px;
+    
+}
+.p8links{
+    display: flex;
+}
+.content{
+    margin-right: 100px;
+}
+.content p{
+    width: 250px;
+    color: black;
+    font-size: 18px;
+    margin-bottom: 15px;
+    
+}
+.content a{
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(11, 82, 149);
+}
+
+#footer{
+    height: 100px;
+    background-color: rgb(7, 7, 123);
+}
+#d1{
+    padding: 20px;
+    display: flex;
+    margin-left: 100px;
+}
+.footlinks a, #footworldwide a{
+    margin: 10px;
+    color: white;
+}
+.footlinks a:hover{
+    color: lightblue;
+}
+#d2{
+    margin-left: 270px;
+    color: white;
+    display: flex;
+    font-weight: 200;
+    
+}
+#d2 a{
+    font-weight: 200;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#d2 a:hover{
+    color: lightblue;
+}
+
+#ContactUSfloater{
+    position: fixed;
+    height: 45px;
+    width: 140px;
+    background-color: rgb(17, 108, 199);
+    bottom: 120px;
+    right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 20px;
+
+    
+}
